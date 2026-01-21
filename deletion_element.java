@@ -1,6 +1,6 @@
 // to perform like a program deletion operation of an array 
 import java.util.Scanner;
-public class deletion_array {
+public class deletion_element {
    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int[]arr = {1,2,3,4,5};
