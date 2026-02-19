@@ -48,29 +48,29 @@ public class matrix_operation {
         System.out.println("Multiplication of matrix:");
         printMatrix(mul);
 
-        // //  Transpose
-        // System.out.println("Transpose of Matrix A:");
-        // for (int j = 0; j < cols; j++) {
-        //     for (int i = 0; i < rows; i++) {
-        //         System.out.print(matrixA[i][j] + " ");
-        //     }
-        //     System.out.println();
-        // }
+        //  Transpose
+        System.out.println("Transpose of Matrix A:");
+        for (int j = 0; j < cols; j++) {
+            for (int i = 0; i < rows; i++) {
+                System.out.print(matrixA[i][j] + " ");
+            }
+            System.out.println();
+        }
 
-    //     // 🔢 Sum of Diagonal
-    //     int diagonalSum = 0;
-    //     for (int i = 0; i < rows; i++) {
-    //         diagonalSum += matrixA[i][i];
-    //     }
-    //     System.out.println("Sum of diagonal elements: " + diagonalSum);
-    // }
+        // 🔢 Sum of Diagonal
+        int diagonalSum = 0;
+        for (int i = 0; i < rows; i++) {
+            diagonalSum += matrixA[i][i];
+        }
+        System.out.println("Sum of diagonal elements: " + diagonalSum);
+    }
 
-//     static void printMatrix(int[][] m) {
-//         for (int[] row : m) {
-//             for (int val : row) {
-//                 System.out.print(val + " ");
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
+    static void printMatrix(int[][] m) {
+        for (int[] row : m) {
+            for (int val : row) {
+                System.out.print(val + " ");
+            }
+            System.out.println();
+        }
+    }
+}
