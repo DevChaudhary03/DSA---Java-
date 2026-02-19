@@ -17,9 +17,6 @@ public class deletion_of_multiple_occurence {
         for (int i =0;i<index;i++){
             System.out.print(newarr[i]+" ");
         }
-        
-        
-        
     }
 }
 
